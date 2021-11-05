@@ -15,7 +15,7 @@ server.listen(port, host, () => {
 });*/
 
 //local host server runs here on port 8080
-var http = require('htttp');
+var http = require('http');
 http.createServer(function(req, res){
     res.write("Hellow world, welcome to my http server!");
     res.end();
